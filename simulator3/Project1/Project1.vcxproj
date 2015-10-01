@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCTargetsPath Condition="'$(VCTargetsPath11)' != '' and '$(VSVersion)' == '' and '$(VisualStudioVersion)' == ''">$(VCTargetsPath11)</VCTargetsPath>
+  </PropertyGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D8B228DA-FBC9-459C-816A-C9BC63CE5B9C}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>
+    </LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>.;C:\pthreads;C:\wxWidgets-2.8.12\lib\vc_lib;C:\wxWidgets-2.8.12\include;C:\wxWidgets-2.8.12;C:\wxWidgets-2.8.12\include\msvc;%(AdditionalLibraryDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WINVER=0x0400;__WXMSW__;WXUSINGDLL;wxUSE_GUI=1;_DEBUG;__WXDEBUG__;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;WIN64;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>.;C:\pthreads;C:\mingw64\;C:\mingw64\include;C:\mingw64\bin;C:\mingw64\lib64;C:\mingw64\lib;C:\pthreads_x64;C:\wxWidgets-2.8.12\lib\vc_lib;C:\wxWidgets-2.8.12\include;C:\wxWidgets-2.8.12;C:\wxWidgets-2.8.12\include\msvc;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxmsw28d_core.lib;wxbase28d.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexd.lib;wxexpatd.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;advapi32.lib;pthreadVC2_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <EntryPointSymbol>WinMainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\trunk\src\AppState.h" />
+    <ClInclude Include="..\trunk\src\BINGenerator.h" />
+    <ClInclude Include="..\trunk\src\BINReader.h" />
+    <ClInclude Include="..\trunk\src\BINRouting.h" />
+    <ClInclude Include="..\trunk\src\BINTree.h" />
+    <ClInclude Include="..\trunk\src\BINTreeNode.h" />
+    <ClInclude Include="..\trunk\src\Buttons.h" />
+    <ClInclude Include="..\trunk\src\ConfReader.h" />
+    <ClInclude Include="..\trunk\src\Control.h" />
+    <ClInclude Include="..\trunk\src\ControlField.h" />
+    <ClInclude Include="..\trunk\src\EventType.h" />
+    <ClInclude Include="..\trunk\src\Experiments.h" />
+    <ClInclude Include="..\trunk\src\Filter.h" />
+    <ClInclude Include="..\trunk\src\Fuzzy.h" />
+    <ClInclude Include="..\trunk\src\FuzzyCalculator.h" />
+    <ClInclude Include="..\trunk\src\FuzzyConfReader.h" />
+    <ClInclude Include="..\trunk\src\FuzzyInput.h" />
+    <ClInclude Include="..\trunk\src\FuzzyLanguageParser.h" />
+    <ClInclude Include="..\trunk\src\FuzzyReasoner.h" />
+    <ClInclude Include="..\trunk\src\FuzzyRule.h" />
+    <ClInclude Include="..\trunk\src\FuzzyRuleToken.h" />
+    <ClInclude Include="..\trunk\src\Generator.h" />
+    <ClInclude Include="..\trunk\src\GeneratorManager.h" />
+    <ClInclude Include="..\trunk\src\Handler.h" />
+    <ClInclude Include="..\trunk\src\LinguisticValue.h" />
+    <ClInclude Include="..\trunk\src\LinguisticVariable.h" />
+    <ClInclude Include="..\trunk\src\Logger.h" />
+    <ClInclude Include="..\trunk\src\LogType.h" />
+    <ClInclude Include="..\trunk\src\MainScreen.h" />
+    <ClInclude Include="..\trunk\src\MyApp.h" />
+    <ClInclude Include="..\trunk\src\Node.h" />
+    <ClInclude Include="..\trunk\src\ObjectType.h" />
+    <ClInclude Include="..\trunk\src\Observer.h" />
+    <ClInclude Include="..\trunk\src\PetriNetManager.h" />
+    <ClInclude Include="..\trunk\src\Place.h" />
+    <ClInclude Include="..\trunk\src\PNFactory.h" />
+    <ClInclude Include="..\trunk\src\Report.h" />
+    <ClInclude Include="..\trunk\src\ReportField.h" />
+    <ClInclude Include="..\trunk\src\Routing.h" />
+    <ClInclude Include="..\trunk\src\SimConfReader.h" />
+    <ClInclude Include="..\trunk\src\SimTime.h" />
+    <ClInclude Include="..\trunk\src\SimulationManager.h" />
+    <ClInclude Include="..\trunk\src\SimulationOutput.h" />
+    <ClInclude Include="..\trunk\src\Singleton.h" />
+    <ClInclude Include="..\trunk\src\SingletonValue.h" />
+    <ClInclude Include="..\trunk\src\SinkNode.h" />
+    <ClInclude Include="..\trunk\src\SourceNode.h" />
+    <ClInclude Include="..\trunk\src\Statistics.h" />
+    <ClInclude Include="..\trunk\src\stdafx.h" />
+    <ClInclude Include="..\trunk\src\stopWatch.h" />
+    <ClInclude Include="..\trunk\src\targetver.h" />
+    <ClInclude Include="..\trunk\src\tchar.h" />
+    <ClInclude Include="..\trunk\src\Thread.h" />
+    <ClInclude Include="..\trunk\src\Times.h" />
+    <ClInclude Include="..\trunk\src\Token.h" />
+    <ClInclude Include="..\trunk\src\Transition.h" />
+    <ClInclude Include="..\trunk\src\TrapezoidValue.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\trunk\src\BINGenerator.cpp" />
+    <ClCompile Include="..\trunk\src\BINReader.cpp" />
+    <ClCompile Include="..\trunk\src\BINRouting.cpp" />
+    <ClCompile Include="..\trunk\src\BINTree.cpp" />
+    <ClCompile Include="..\trunk\src\BINTreeNode.cpp" />
+    <ClCompile Include="..\trunk\src\Buttons.cpp" />
+    <ClCompile Include="..\trunk\src\ConfReader.cpp" />
+    <ClCompile Include="..\trunk\src\Control.cpp" />
+    <ClCompile Include="..\trunk\src\ControlField.cpp" />
+    <ClCompile Include="..\trunk\src\Experiments.cpp" />
+    <ClCompile Include="..\trunk\src\Filter.cpp" />
+    <ClCompile Include="..\trunk\src\Fuzzy.cpp" />
+    <ClCompile Include="..\trunk\src\FuzzyCalculator.cpp" />
+    <ClCompile Include="..\trunk\src\FuzzyConfReader.cpp" />
+    <ClCompile Include="..\trunk\src\FuzzyInput.cpp" />
+    <ClCompile Include="..\trunk\src\FuzzyLanguageParser.cpp" />
+    <ClCompile Include="..\trunk\src\FuzzyReasoner.cpp" />
+    <ClCompile Include="..\trunk\src\FuzzyRule.cpp" />
+    <ClCompile Include="..\trunk\src\FuzzyRuleToken.cpp" />
+    <ClCompile Include="..\trunk\src\Generator.cpp" />
+    <ClCompile Include="..\trunk\src\GeneratorManager.cpp" />
+    <ClCompile Include="..\trunk\src\Handler.cpp" />
+    <ClCompile Include="..\trunk\src\LinguisticValue.cpp" />
+    <ClCompile Include="..\trunk\src\LinguisticVariable.cpp" />
+    <ClCompile Include="..\trunk\src\Logger.cpp" />
+    <ClCompile Include="..\trunk\src\MainScreen.cpp" />
+    <ClCompile Include="..\trunk\src\MyApp.cpp" />
+    <ClCompile Include="..\trunk\src\Node.cpp" />
+    <ClCompile Include="..\trunk\src\Observer.cpp" />
+    <ClCompile Include="..\trunk\src\PetriNetManager.cpp" />
+    <ClCompile Include="..\trunk\src\Place.cpp" />
+    <ClCompile Include="..\trunk\src\PNFactory.cpp" />
+    <ClCompile Include="..\trunk\src\Report.cpp" />
+    <ClCompile Include="..\trunk\src\ReportField.cpp" />
+    <ClCompile Include="..\trunk\src\Routing.cpp" />
+    <ClCompile Include="..\trunk\src\SimConfReader.cpp" />
+    <ClCompile Include="..\trunk\src\SimTime.cpp" />
+    <ClCompile Include="..\trunk\src\SimulationManager.cpp" />
+    <ClCompile Include="..\trunk\src\SimulationOutput.cpp" />
+    <ClCompile Include="..\trunk\src\Singleton.cpp" />
+    <ClCompile Include="..\trunk\src\SingletonValue.cpp" />
+    <ClCompile Include="..\trunk\src\SinkNode.cpp" />
+    <ClCompile Include="..\trunk\src\SourceNode.cpp" />
+    <ClCompile Include="..\trunk\src\Statistics.cpp" />
+    <ClCompile Include="..\trunk\src\stdafx.cpp" />
+    <ClCompile Include="..\trunk\src\stopWatch.cpp" />
+    <ClCompile Include="..\trunk\src\Thread.cpp" />
+    <ClCompile Include="..\trunk\src\Times.cpp" />
+    <ClCompile Include="..\trunk\src\Token.cpp" />
+    <ClCompile Include="..\trunk\src\Transition.cpp" />
+    <ClCompile Include="..\trunk\src\TrapezoidValue.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

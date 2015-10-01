@@ -1,0 +1,88 @@
+﻿Build started 7/11/2012 6:52:00 PM.
+     1>Project "C:\cygwin\home\USER\EFTSwitchSim\EFTSwitchSim.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\EFTSwitchSim.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt trunk\src\BINRouting\BINReader.cpp trunk\src\BINRouting\BINRouting.cpp trunk\src\BINRouting\BINTree.cpp trunk\src\BINRouting\BINTreeNode.cpp trunk\src\Configuration\ConfReader.cpp trunk\src\Configuration\FuzzyConfReader.cpp trunk\src\Configuration\SimConfReader.cpp trunk\src\EFTSwitch\Routing.cpp trunk\src\EFTSwitch\SinkNode.cpp trunk\src\EFTSwitch\SourceNode.cpp trunk\src\FuzzyRouting\Experiments.cpp trunk\src\FuzzyRouting\Fuzzy.cpp trunk\src\FuzzyRouting\FuzzyCalculator.cpp trunk\src\FuzzyRouting\FuzzyInput.cpp trunk\src\FuzzyRouting\FuzzyLanguageParser.cpp trunk\src\FuzzyRouting\FuzzyReasoner.cpp trunk\src\FuzzyRouting\FuzzyRule.cpp trunk\src\FuzzyRouting\FuzzyRuleToken.cpp trunk\src\FuzzyRouting\LinguisticValue.cpp trunk\src\FuzzyRouting\LinguisticVariable.cpp trunk\src\FuzzyRouting\SingletonValue.cpp trunk\src\FuzzyRouting\stdafx.cpp trunk\src\FuzzyRouting\TrapezoidValue.cpp trunk\src\MyApp.cpp trunk\src\PetriNet\Node.cpp trunk\src\PetriNet\PetriNetManager.cpp trunk\src\PetriNet\Place.cpp trunk\src\PetriNet\PNFactory.cpp trunk\src\PetriNet\Token.cpp trunk\src\PetriNet\Transition.cpp trunk\src\Simulation\BINGenerator.cpp trunk\src\Simulation\Filter.cpp trunk\src\Simulation\Generator.cpp trunk\src\Simulation\GeneratorManager.cpp trunk\src\Simulation\Handler.cpp trunk\src\Simulation\Logger.cpp trunk\src\Simulation\SimTime.cpp trunk\src\Simulation\SimulationManager.cpp trunk\src\Simulation\Statistics.cpp trunk\src\Simulation\stopWatch.cpp trunk\src\Simulation\Thread.cpp trunk\src\Simulation\Times.cpp trunk\src\UI\Buttons.cpp trunk\src\UI\Control.cpp trunk\src\UI\ControlField.cpp trunk\src\UI\MainScreen.cpp trunk\src\UI\Report.cpp trunk\src\UI\ReportField.cpp trunk\src\UI\SimulationOutput.cpp trunk\src\Utils\Observer.cpp trunk\src\Utils\Singleton.cpp
+         BINReader.cpp
+         BINRouting.cpp
+         BINTree.cpp
+         BINTreeNode.cpp
+         ConfReader.cpp
+         FuzzyConfReader.cpp
+         SimConfReader.cpp
+         Routing.cpp
+         SinkNode.cpp
+         SourceNode.cpp
+         Experiments.cpp
+         Fuzzy.cpp
+         FuzzyCalculator.cpp
+         FuzzyInput.cpp
+         FuzzyLanguageParser.cpp
+         FuzzyReasoner.cpp
+         FuzzyRule.cpp
+         FuzzyRuleToken.cpp
+         LinguisticValue.cpp
+         LinguisticVariable.cpp
+         Generating Code...
+         Compiling...
+         SingletonValue.cpp
+         stdafx.cpp
+         TrapezoidValue.cpp
+         MyApp.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\MyApp.h(8): fatal error C1083: Cannot open include file: 'wx\wx.h': No such file or directory
+         Node.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\petrinet\Node.h(13): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         PetriNetManager.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\petrinet\../Simulation/GeneratorManager.h(17): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Place.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\petrinet\Place.h(11): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         PNFactory.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\petrinet\../Simulation/SimulationManager.h(15): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Token.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\petrinet\Token.h(11): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Transition.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\petrinet\../Simulation/SimulationManager.h(15): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         BINGenerator.cpp
+         Filter.cpp
+         Generator.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\simulation\Generator.h(14): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         GeneratorManager.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\simulation\GeneratorManager.h(17): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Handler.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\simulation\Handler.h(11): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         Logger.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\simulation\../UI/MainScreen.h(4): fatal error C1083: Cannot open include file: 'wx\wx.h': No such file or directory
+         SimTime.cpp
+         SimulationManager.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\simulation\SimulationManager.h(15): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Statistics.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\simulation\GeneratorManager.h(17): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         stopWatch.cpp
+         Generating Code...
+         Compiling...
+         Thread.cpp
+         Times.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\simulation\Times.h(15): fatal error C1083: Cannot open include file: 'semaphore.h': No such file or directory
+         Buttons.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\ui\Buttons.h(11): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         Control.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\ui\Control.h(11): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         ControlField.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\ui\ControlField.h(11): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         MainScreen.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\ui\MainScreen.h(4): fatal error C1083: Cannot open include file: 'wx\wx.h': No such file or directory
+         Report.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\ui\Report.h(11): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         ReportField.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\ui\ReportField.h(11): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         SimulationOutput.cpp
+     1>c:\cygwin\home\user\eftswitchsim\trunk\src\ui\SimulationOutput.h(11): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         Observer.cpp
+         Singleton.cpp
+         Generating Code...
+     1>Done Building Project "C:\cygwin\home\USER\EFTSwitchSim\EFTSwitchSim.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:10.51

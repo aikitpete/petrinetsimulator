@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/Utils
+END
+Singleton.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/Utils/Singleton.cpp
+END
+Observer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/Utils/Observer.cpp
+END
+Singleton.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/Utils/Singleton.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/eftswitch-sim/!svn/ver/26/trunk/src/Utils/Makefile
+END
+Observer.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/eftswitch-sim/!svn/ver/28/trunk/src/Utils/Observer.h
+END

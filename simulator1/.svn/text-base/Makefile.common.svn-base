@@ -1,0 +1,12 @@
+#Define variables
+MAKE=make
+GCC=g++
+CFLAGS=-Wall -O2
+WXFLAGS=`wx-config --cxxflags`
+WXLINKER=`wx-config --libs`
+HASHMAP=--std=gnu++0x
+SOURCE_PATH=src/
+OBJECT_PATH=
+BUILD_PATH=../Release-Console/
+FILENAME=EFTSwitchSim.exe
+REMOVE_OBJECTS=rm -f *.o

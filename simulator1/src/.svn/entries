@@ -1,0 +1,95 @@
+8
+
+dir
+27
+https://piggg52@subversion.assembla.com/svn/eftswitch-sim/trunk/src
+https://piggg52@subversion.assembla.com/svn/eftswitch-sim
+
+
+
+2012-07-11T18:51:18.353168Z
+27
+piggg52
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9cf17893-6a30-4705-9144-864373772f31
+
+FuzzyRouting
+dir
+
+BINRouting
+dir
+
+EFTSwitch
+dir
+
+Utils
+dir
+
+Simulation
+dir
+
+Configuration
+dir
+
+MyApp.cpp
+file
+28
+
+
+
+2012-07-11T09:40:44.000000Z
+09383734bb82732de927a7a7bce7a96e
+2012-07-12T06:42:35.783428Z
+28
+piggg52
+
+
+svn:special svn:externals svn:needs-lock
+
+PetriNet
+dir
+
+MyApp.h
+file
+28
+
+
+
+2012-07-11T18:18:00.000000Z
+487946efdd77da01cc26cd76129737c0
+2012-07-12T06:42:35.783428Z
+28
+piggg52
+
+
+svn:special svn:externals svn:needs-lock
+
+UI
+dir
+
+Makefile
+file
+28
+
+
+
+2012-07-10T18:31:14.000000Z
+79963f42ad46b6d0b9caa069575ae28d
+2012-07-12T06:42:35.783428Z
+28
+piggg52
+has-props
+

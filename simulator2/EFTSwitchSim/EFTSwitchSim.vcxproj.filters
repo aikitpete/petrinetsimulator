@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\BINRouting">
+      <UniqueIdentifier>{31500957-3cdc-4270-ac6f-31cf6f358218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Configuration">
+      <UniqueIdentifier>{00c9badb-83a0-4361-8cc5-c5100b712f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EFTSwitch">
+      <UniqueIdentifier>{de9f5984-e9fd-48b7-a046-24b20066fbde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FuzzyRouting">
+      <UniqueIdentifier>{7adad00c-8589-4517-a3cb-012f97df9179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PetriNet">
+      <UniqueIdentifier>{874d1a4c-46e7-4580-b766-be5075f0c9b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources">
+      <UniqueIdentifier>{ef7aaee2-7821-4695-a7b8-17c566a6ecb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Simulation">
+      <UniqueIdentifier>{5ddcacb4-1ba9-4406-80b1-0df41481da7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{8bda0a28-50f4-4212-8685-7dfafce5f9e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{c16ec82f-c1da-41db-b87d-09c9c96f6eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources\BINLists">
+      <UniqueIdentifier>{49f040ea-230a-43d2-b341-8278d89d7652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources\FuzzyConfig">
+      <UniqueIdentifier>{807e8b69-6109-4eb2-843b-c333961f424a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources\Rules">
+      <UniqueIdentifier>{067f45fc-1433-4d7c-949e-f55e6c337303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources\SimulationConfig">
+      <UniqueIdentifier>{c6c33a3b-b026-4fea-8b55-3fd7c30a36d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\trunk\BINRouting\BINReader.h">
+      <Filter>Source Files\BINRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\BINRouting\BINRouting.h">
+      <Filter>Source Files\BINRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\BINRouting\BINTree.h">
+      <Filter>Source Files\BINRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\BINRouting\BINTreeNode.h">
+      <Filter>Source Files\BINRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Configuration\ConfReader.h">
+      <Filter>Source Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Configuration\FuzzyConfReader.h">
+      <Filter>Source Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Configuration\SimConfReader.h">
+      <Filter>Source Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\EFTSwitch\Routing.h">
+      <Filter>Source Files\EFTSwitch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\EFTSwitch\SinkNode.h">
+      <Filter>Source Files\EFTSwitch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\EFTSwitch\SourceNode.h">
+      <Filter>Source Files\EFTSwitch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\FuzzyRouting\Experiments.h">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\FuzzyRouting\Fuzzy.h">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\FuzzyRouting\FuzzyCalculator.h">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\FuzzyRouting\FuzzyInput.h">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\FuzzyRouting\FuzzyLanguageParser.h">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\FuzzyRouting\FuzzyReasoner.h">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\FuzzyRouting\FuzzyRule.h">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\FuzzyRouting\FuzzyRuleToken.h">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\FuzzyRouting\LinguisticValue.h">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\FuzzyRouting\LinguisticVariable.h">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\FuzzyRouting\SingletonValue.h">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\FuzzyRouting\stdafx.h">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\FuzzyRouting\targetver.h">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\FuzzyRouting\tchar.h">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\FuzzyRouting\TrapezoidValue.h">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Utils\Observer.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Utils\Singleton.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Utils\XMLParser.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\UI\AppState.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\UI\Buttons.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\UI\Control.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\UI\ControlField.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\UI\MainScreen.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\UI\MyApp.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\UI\Report.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\UI\ReportField.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\UI\SimulationOutput.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Simulation\BINGenerator.h">
+      <Filter>Source Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Simulation\EventType.h">
+      <Filter>Source Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Simulation\Filter.h">
+      <Filter>Source Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Simulation\Generator.h">
+      <Filter>Source Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Simulation\GeneratorManager.h">
+      <Filter>Source Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Simulation\Handler.h">
+      <Filter>Source Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Simulation\Logger.h">
+      <Filter>Source Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Simulation\LogType.h">
+      <Filter>Source Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Simulation\SimTime.h">
+      <Filter>Source Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Simulation\SimulationManager.h">
+      <Filter>Source Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Simulation\Statistics.h">
+      <Filter>Source Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Simulation\stopWatch.h">
+      <Filter>Source Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Simulation\Thread.h">
+      <Filter>Source Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\Simulation\Times.h">
+      <Filter>Source Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\PetriNet\Node.h">
+      <Filter>Source Files\PetriNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\PetriNet\ObjectType.h">
+      <Filter>Source Files\PetriNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\PetriNet\PetriNetManager.h">
+      <Filter>Source Files\PetriNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\PetriNet\Place.h">
+      <Filter>Source Files\PetriNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\PetriNet\PNFactory.h">
+      <Filter>Source Files\PetriNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\PetriNet\Token.h">
+      <Filter>Source Files\PetriNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trunk\PetriNet\Transition.h">
+      <Filter>Source Files\PetriNet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\trunk\BINRouting\BINReader.cpp">
+      <Filter>Source Files\BINRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\BINRouting\BINRouting.cpp">
+      <Filter>Source Files\BINRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\BINRouting\BINTree.cpp">
+      <Filter>Source Files\BINRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\BINRouting\BINTreeNode.cpp">
+      <Filter>Source Files\BINRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Configuration\ConfReader.cpp">
+      <Filter>Source Files\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Configuration\FuzzyConfReader.cpp">
+      <Filter>Source Files\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Configuration\SimConfReader.cpp">
+      <Filter>Source Files\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\EFTSwitch\Routing.cpp">
+      <Filter>Source Files\EFTSwitch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\EFTSwitch\SinkNode.cpp">
+      <Filter>Source Files\EFTSwitch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\EFTSwitch\SourceNode.cpp">
+      <Filter>Source Files\EFTSwitch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\FuzzyRouting\Experiments.cpp">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\FuzzyRouting\Fuzzy.cpp">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\FuzzyRouting\FuzzyCalculator.cpp">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\FuzzyRouting\FuzzyInput.cpp">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\FuzzyRouting\FuzzyLanguageParser.cpp">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\FuzzyRouting\FuzzyReasoner.cpp">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\FuzzyRouting\FuzzyRule.cpp">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\FuzzyRouting\FuzzyRuleToken.cpp">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\FuzzyRouting\LinguisticValue.cpp">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\FuzzyRouting\LinguisticVariable.cpp">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\FuzzyRouting\SingletonValue.cpp">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\FuzzyRouting\stdafx.cpp">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\FuzzyRouting\TrapezoidValue.cpp">
+      <Filter>Source Files\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Utils\Observer.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Utils\Singleton.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Utils\XMLParser.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\UI\Buttons.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\UI\Control.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\UI\ControlField.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\UI\MainScreen.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\UI\MyApp.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\UI\Report.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\UI\ReportField.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\UI\SimulationOutput.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Simulation\BINGenerator.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Simulation\Filter.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Simulation\Generator.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Simulation\GeneratorManager.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Simulation\Handler.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Simulation\Logger.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Simulation\SimTime.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Simulation\SimulationManager.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Simulation\Statistics.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Simulation\stopWatch.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Simulation\Thread.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\Simulation\Times.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\PetriNet\Node.cpp">
+      <Filter>Source Files\PetriNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\PetriNet\PetriNetManager.cpp">
+      <Filter>Source Files\PetriNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\PetriNet\Place.cpp">
+      <Filter>Source Files\PetriNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\PetriNet\PNFactory.cpp">
+      <Filter>Source Files\PetriNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\PetriNet\Token.cpp">
+      <Filter>Source Files\PetriNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trunk\PetriNet\Transition.cpp">
+      <Filter>Source Files\PetriNet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\trunk\Resources\BINLists\GenerateBIN.py">
+      <Filter>Source Files\Resources\BINLists</Filter>
+    </None>
+    <None Include="..\trunk\Resources\FuzzyConfig\Fuzzy.conf">
+      <Filter>Source Files\Resources\FuzzyConfig</Filter>
+    </None>
+    <None Include="..\trunk\Resources\SimulationConfig\Simulation.conf">
+      <Filter>Source Files\Resources\SimulationConfig</Filter>
+    </None>
+    <None Include="..\trunk\Resources\Rules\rules1.rul">
+      <Filter>Source Files\Resources\Rules</Filter>
+    </None>
+    <None Include="..\trunk\Resources\Rules\rules2.rul">
+      <Filter>Source Files\Resources\Rules</Filter>
+    </None>
+    <None Include="..\trunk\Resources\Rules\rules3.rul">
+      <Filter>Source Files\Resources\Rules</Filter>
+    </None>
+  </ItemGroup>
+</Project>

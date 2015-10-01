@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/Configuration
+END
+FuzzyConfReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/Configuration/FuzzyConfReader.cpp
+END
+SimConfReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/Configuration/SimConfReader.cpp
+END
+FuzzyConfReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/Configuration/FuzzyConfReader.h
+END
+SimConfReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/Configuration/SimConfReader.h
+END
+ConfReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/Configuration/ConfReader.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/eftswitch-sim/!svn/ver/26/trunk/src/Configuration/Makefile
+END
+ConfReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/Configuration/ConfReader.h
+END

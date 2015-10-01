@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/eftswitch-sim/!svn/ver/27/trunk
+END
+Makefile.common
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/eftswitch-sim/!svn/ver/28/trunk/Makefile.common
+END
+Readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/eftswitch-sim/!svn/ver/27/trunk/Readme.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/eftswitch-sim/!svn/ver/28/trunk/Makefile
+END

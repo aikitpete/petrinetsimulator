@@ -1,0 +1,17 @@
+%ATTRIBUTES
+Speed Input Low (0,0,0.3,0.5) Avg (0.3,0.5,0.7,0.9) Hi (0.7,0.9,1,1)
+Reliability Input Low (0,0,0.3,0.5) Avg (0.3,0.5,0.7,0.9) Hi (0.7,0.9,1,1)
+Security Input Low (0,0,0.3,0.5) Avg (0.3,0.5,0.7,0.9) Hi (0.7,0.9,1,1)
+User Input Low (0,0,0.3,0.5) Avg (0.3,0.5,0.7,0.9) Hi (0.7,0.9,1,1)
+Queue Input Low (0,0,0.3,0.5) Avg (0.3,0.5,0.7,0.9) Hi (0.7,0.9,1,1)
+Failure Input Yes (1)
+Rating Output Low (0,0,0.3,0.5) Avg (0.3,0.5,0.7,0.9) Hi (0.7,0.9,1,1)
+
+%RULES
+IF Failure = Yes THEN Rating = Low
+IF Queue = Low THEN Rating = Low
+IF Speed = Hi OR User = Hi THEN Rating = Hi
+IF Speed = Avg AND Queue = Hi THEN Rating = Avg
+IF Speed = Low THEN Rating = Low
+IF User = Avg AND Security = Hi AND Reliability NOT Low THEN Rating = Avg
+IF User = Low THEN Rating = Low

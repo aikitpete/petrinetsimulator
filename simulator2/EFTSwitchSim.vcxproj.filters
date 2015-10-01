@@ -1,0 +1,698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{00ddf576-5ac9-4669-b869-b40f6f96f0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build">
+      <UniqueIdentifier>{3bb7d1b2-3d16-4748-844e-9f1f1f1fb1ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{39a31c54-72be-40bb-8efa-e5f00a3b71a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\BINLists">
+      <UniqueIdentifier>{8281a161-e6f7-4731-a7e3-09ffad508978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\FuzzyConfig">
+      <UniqueIdentifier>{afa0f082-7e12-4abf-9c03-43c537bba897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\Rules">
+      <UniqueIdentifier>{cdf1a2ac-c78f-4b47-9429-9d84710ed6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\SimulationConfig">
+      <UniqueIdentifier>{365eb388-8881-4e4e-9e0c-219834a8f229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BINRouting">
+      <UniqueIdentifier>{3c8f8f7d-a977-46e1-95c5-f89a01846e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Configuration">
+      <UniqueIdentifier>{b8eeeb02-758f-41b2-b77a-d6f9218d24b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\EFTSwitch">
+      <UniqueIdentifier>{c848b659-d4ab-4268-acfd-5c1019f1ed1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\FuzzyRouting">
+      <UniqueIdentifier>{fcb98267-cf8c-4a91-8ddd-8eb3dd00d5a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\PetriNet">
+      <UniqueIdentifier>{f2b997d8-1857-413d-ac26-ca3a57d86cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Simulation">
+      <UniqueIdentifier>{3d478ae2-1d5b-44b2-8def-46d5d2bb5d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UI">
+      <UniqueIdentifier>{b65f8620-a773-4f3d-9141-fb61da1985dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utils">
+      <UniqueIdentifier>{4eb9e748-7ee6-4c56-8b6b-5e6ccf94d36e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="trunk\resources\BINLists\BINlist0.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist1.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist2.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist3.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist4.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist5.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist6.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist7.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist8.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist9.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist10.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist11.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist12.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist13.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist14.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist15.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist16.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist17.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist18.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist19.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist20.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist21.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist22.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist23.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist24.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist25.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist26.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist27.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist28.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist29.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist30.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist31.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist32.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist33.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist34.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist35.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist36.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist37.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist38.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist39.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist40.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist41.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist42.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist43.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist44.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist45.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist46.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist47.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist48.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist49.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist50.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist51.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist52.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist53.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist54.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist55.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist56.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist57.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist58.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist59.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist60.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist61.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist62.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist63.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist64.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist65.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist66.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist67.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist68.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist69.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist70.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist71.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist72.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist73.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist74.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist75.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist76.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist77.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist78.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist79.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist80.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist81.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist82.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist83.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist84.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist85.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist86.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist87.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist88.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist89.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist90.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist91.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist92.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist93.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist94.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist95.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist96.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist97.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist98.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\BINlist99.dat">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\BINLists\GenerateBIN.py">
+      <Filter>resources\BINLists</Filter>
+    </None>
+    <None Include="trunk\resources\FuzzyConfig\Fuzzy.conf">
+      <Filter>resources\FuzzyConfig</Filter>
+    </None>
+    <None Include="trunk\resources\Rules\rules1.rul">
+      <Filter>resources\Rules</Filter>
+    </None>
+    <None Include="trunk\resources\Rules\rules2.rul">
+      <Filter>resources\Rules</Filter>
+    </None>
+    <None Include="trunk\resources\Rules\rules3.rul">
+      <Filter>resources\Rules</Filter>
+    </None>
+    <None Include="trunk\resources\SimulationConfig\Simulation.conf">
+      <Filter>resources\SimulationConfig</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="trunk\src\MyApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\BINRouting\BINReader.cpp">
+      <Filter>src\BINRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\BINRouting\BINRouting.cpp">
+      <Filter>src\BINRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\BINRouting\BINTree.cpp">
+      <Filter>src\BINRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\BINRouting\BINTreeNode.cpp">
+      <Filter>src\BINRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\Configuration\ConfReader.cpp">
+      <Filter>src\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\Configuration\FuzzyConfReader.cpp">
+      <Filter>src\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\Configuration\SimConfReader.cpp">
+      <Filter>src\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\EFTSwitch\Routing.cpp">
+      <Filter>src\EFTSwitch</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\EFTSwitch\SinkNode.cpp">
+      <Filter>src\EFTSwitch</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\EFTSwitch\SourceNode.cpp">
+      <Filter>src\EFTSwitch</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\FuzzyRouting\Experiments.cpp">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\FuzzyRouting\Fuzzy.cpp">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\FuzzyRouting\FuzzyCalculator.cpp">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\FuzzyRouting\FuzzyInput.cpp">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\FuzzyRouting\FuzzyLanguageParser.cpp">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\FuzzyRouting\FuzzyReasoner.cpp">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\FuzzyRouting\FuzzyRule.cpp">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\FuzzyRouting\FuzzyRuleToken.cpp">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\FuzzyRouting\LinguisticValue.cpp">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\FuzzyRouting\LinguisticVariable.cpp">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\FuzzyRouting\SingletonValue.cpp">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\FuzzyRouting\stdafx.cpp">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\FuzzyRouting\TrapezoidValue.cpp">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\PetriNet\Node.cpp">
+      <Filter>src\PetriNet</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\PetriNet\PetriNetManager.cpp">
+      <Filter>src\PetriNet</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\PetriNet\Place.cpp">
+      <Filter>src\PetriNet</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\PetriNet\PNFactory.cpp">
+      <Filter>src\PetriNet</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\PetriNet\Token.cpp">
+      <Filter>src\PetriNet</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\PetriNet\Transition.cpp">
+      <Filter>src\PetriNet</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\Simulation\BINGenerator.cpp">
+      <Filter>src\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\Simulation\Filter.cpp">
+      <Filter>src\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\Simulation\Generator.cpp">
+      <Filter>src\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\Simulation\GeneratorManager.cpp">
+      <Filter>src\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\Simulation\Handler.cpp">
+      <Filter>src\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\Simulation\Logger.cpp">
+      <Filter>src\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\Simulation\SimTime.cpp">
+      <Filter>src\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\Simulation\SimulationManager.cpp">
+      <Filter>src\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\Simulation\Statistics.cpp">
+      <Filter>src\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\Simulation\stopWatch.cpp">
+      <Filter>src\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\Simulation\Thread.cpp">
+      <Filter>src\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\Simulation\Times.cpp">
+      <Filter>src\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\UI\Buttons.cpp">
+      <Filter>src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\UI\Control.cpp">
+      <Filter>src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\UI\ControlField.cpp">
+      <Filter>src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\UI\MainScreen.cpp">
+      <Filter>src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\UI\Report.cpp">
+      <Filter>src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\UI\ReportField.cpp">
+      <Filter>src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\UI\SimulationOutput.cpp">
+      <Filter>src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\Utils\Observer.cpp">
+      <Filter>src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="trunk\src\Utils\Singleton.cpp">
+      <Filter>src\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="trunk\src\MyApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\BINRouting\BINReader.h">
+      <Filter>src\BINRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\BINRouting\BINRouting.h">
+      <Filter>src\BINRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\BINRouting\BINTree.h">
+      <Filter>src\BINRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\BINRouting\BINTreeNode.h">
+      <Filter>src\BINRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Configuration\ConfReader.h">
+      <Filter>src\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Configuration\FuzzyConfReader.h">
+      <Filter>src\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Configuration\SimConfReader.h">
+      <Filter>src\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\EFTSwitch\Routing.h">
+      <Filter>src\EFTSwitch</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\EFTSwitch\SinkNode.h">
+      <Filter>src\EFTSwitch</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\EFTSwitch\SourceNode.h">
+      <Filter>src\EFTSwitch</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\FuzzyRouting\Experiments.h">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\FuzzyRouting\Fuzzy.h">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\FuzzyRouting\FuzzyCalculator.h">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\FuzzyRouting\FuzzyInput.h">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\FuzzyRouting\FuzzyLanguageParser.h">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\FuzzyRouting\FuzzyReasoner.h">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\FuzzyRouting\FuzzyRule.h">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\FuzzyRouting\FuzzyRuleToken.h">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\FuzzyRouting\LinguisticValue.h">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\FuzzyRouting\LinguisticVariable.h">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\FuzzyRouting\SingletonValue.h">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\FuzzyRouting\stdafx.h">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\FuzzyRouting\targetver.h">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\FuzzyRouting\tchar.h">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\FuzzyRouting\TrapezoidValue.h">
+      <Filter>src\FuzzyRouting</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\PetriNet\Node.h">
+      <Filter>src\PetriNet</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\PetriNet\ObjectType.h">
+      <Filter>src\PetriNet</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\PetriNet\PetriNetManager.h">
+      <Filter>src\PetriNet</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\PetriNet\Place.h">
+      <Filter>src\PetriNet</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\PetriNet\PNFactory.h">
+      <Filter>src\PetriNet</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\PetriNet\Token.h">
+      <Filter>src\PetriNet</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\PetriNet\Transition.h">
+      <Filter>src\PetriNet</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Simulation\BINGenerator.h">
+      <Filter>src\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Simulation\EventType.h">
+      <Filter>src\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Simulation\Filter.h">
+      <Filter>src\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Simulation\Generator.h">
+      <Filter>src\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Simulation\GeneratorManager.h">
+      <Filter>src\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Simulation\Handler.h">
+      <Filter>src\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Simulation\Logger.h">
+      <Filter>src\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Simulation\LogType.h">
+      <Filter>src\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Simulation\SimTime.h">
+      <Filter>src\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Simulation\SimulationManager.h">
+      <Filter>src\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Simulation\Statistics.h">
+      <Filter>src\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Simulation\stopWatch.h">
+      <Filter>src\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Simulation\Thread.h">
+      <Filter>src\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Simulation\Times.h">
+      <Filter>src\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\UI\AppState.h">
+      <Filter>src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\UI\Buttons.h">
+      <Filter>src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\UI\Control.h">
+      <Filter>src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\UI\ControlField.h">
+      <Filter>src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\UI\MainScreen.h">
+      <Filter>src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\UI\Report.h">
+      <Filter>src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\UI\ReportField.h">
+      <Filter>src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\UI\SimulationOutput.h">
+      <Filter>src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Utils\Observer.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="trunk\src\Utils\Singleton.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

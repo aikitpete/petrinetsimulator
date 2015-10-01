@@ -1,0 +1,50 @@
+﻿Build started 4/23/2012 1:35:38 AM.
+     1>Project "C:\Users\USER\Documents\Visual Studio 2010\Projects\EFTSwitchSim\EFTSwitchSim\EFTSwitchSim.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\EFTSwitchSim.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\trunk\Buttons.cpp ..\trunk\Control.cpp ..\trunk\ControlField.cpp ..\trunk\Engine.cpp ..\trunk\Handler.cpp ..\trunk\Logger.cpp ..\trunk\MainScreen.cpp ..\trunk\MyApp.cpp ..\trunk\Node.cpp ..\trunk\PNFactory.cpp ..\trunk\PetriNet.cpp ..\trunk\Place.cpp ..\trunk\Report.cpp ..\trunk\ReportField.cpp ..\trunk\SimTime.cpp ..\trunk\SimulationOutput.cpp ..\trunk\Statistics.cpp ..\trunk\Token.cpp ..\trunk\Transition.cpp
+         Transition.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\token.h(11): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Token.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\token.h(11): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Statistics.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\simtime.h(13): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+         SimulationOutput.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\simulationoutput.h(11): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         SimTime.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\simtime.h(13): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+         ReportField.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\reportfield.h(11): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         Report.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\report.h(11): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         Place.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\mainscreen.h(4): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         PetriNet.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\token.h(11): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         PNFactory.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\token.h(11): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Node.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\mainscreen.h(4): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         MyApp.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\myapp.h(6): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         MainScreen.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\mainscreen.h(4): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         Logger.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\mainscreen.h(4): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         Handler.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\handler.h(11): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         Engine.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\engine.h(8): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         ControlField.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\controlfield.h(11): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         Control.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\control.h(11): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         Buttons.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\eftswitchsim\trunk\buttons.h(11): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\USER\Documents\Visual Studio 2010\Projects\EFTSwitchSim\EFTSwitchSim\EFTSwitchSim.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.86

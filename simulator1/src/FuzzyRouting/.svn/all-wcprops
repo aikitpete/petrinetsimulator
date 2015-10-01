@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting
+END
+TrapezoidValue.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/TrapezoidValue.cpp
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/stdafx.h
+END
+SingletonValue.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/SingletonValue.cpp
+END
+FuzzyCalculator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/FuzzyCalculator.cpp
+END
+Experiments.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/Experiments.cpp
+END
+TrapezoidValue.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/TrapezoidValue.h
+END
+SingletonValue.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/SingletonValue.h
+END
+FuzzyCalculator.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/FuzzyCalculator.h
+END
+tchar.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/tchar.h
+END
+FuzzyInput.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/FuzzyInput.cpp
+END
+LinguisticValue.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/LinguisticValue.cpp
+END
+FuzzyLanguageParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/FuzzyLanguageParser.cpp
+END
+Experiments.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/Experiments.h
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/targetver.h
+END
+FuzzyInput.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/FuzzyInput.h
+END
+LinguisticValue.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/LinguisticValue.h
+END
+FuzzyLanguageParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/FuzzyLanguageParser.h
+END
+FuzzyRule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/FuzzyRule.cpp
+END
+FuzzyRuleToken.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/FuzzyRuleToken.cpp
+END
+LinguisticVariable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/LinguisticVariable.cpp
+END
+FuzzyRule.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/FuzzyRule.h
+END
+FuzzyRuleToken.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/FuzzyRuleToken.h
+END
+LinguisticVariable.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/LinguisticVariable.h
+END
+FuzzyReasoner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/FuzzyReasoner.cpp
+END
+Fuzzy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/Fuzzy.cpp
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/stdafx.cpp
+END
+FuzzyReasoner.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/FuzzyReasoner.h
+END
+Fuzzy.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/eftswitch-sim/!svn/ver/27/trunk/src/FuzzyRouting/Fuzzy.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/eftswitch-sim/!svn/ver/26/trunk/src/FuzzyRouting/Makefile
+END

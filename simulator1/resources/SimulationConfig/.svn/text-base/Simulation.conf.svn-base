@@ -1,0 +1,25 @@
+<Simulation>
+TimeLimit=10000
+TransactionLimit=100000
+Routing=dynamic
+</Simulation>
+
+<SourceNodes>
+Amount=1
+</SourceNodes>
+
+<SourceConfiguration>
+Node1="name=source1 type=single tps=200 proc=0"
+Node2="name=source2 type=single tps=300 proc=0"
+Node3="name=source3 type=single tps=100 proc=0"
+</SourceConfiguration>
+
+<SinkNodes>
+Amount=100
+</SinkNodes>
+
+<SinkConfiguration>
+Node1="name=sink1 type=single location=china fail=0.0001 proc=50 err=0.01"
+Node2="name=sink2 type=single location=japan fail=0.0 proc=80 err=0.05"
+Node3="name=sink3 type=single location=singapore fail 0.0 proc=100 err=0.01"
+</SinkConfiguration>

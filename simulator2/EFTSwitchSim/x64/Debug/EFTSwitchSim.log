@@ -1,0 +1,70 @@
+﻿Build started 7/9/2012 10:45:00 PM.
+     1>Project "C:\Users\USER\documents\visual studio 2010\Projects\EFTSwitchSim\EFTSwitchSim\EFTSwitchSim.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Debug\EFTSwitchSim.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\documents\visual studio 2010\Projects\EFTSwitchSim\x64\Debug\EFTSwitchSim.exe" /NOLOGO /LIBPATH:. /LIBPATH:C:\pthreads_x64 /LIBPATH:"C:\wxWidgets-2.8.12\lib\vc_lib" /LIBPATH:"C:\wxWidgets-2.8.12\include" /LIBPATH:"C:\wxWidgets-2.8.12" /LIBPATH:"C:\wxWidgets-2.8.12\include\msvc" wxmsw28d_core.lib wxbase28d.lib wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexd.lib wxexpatd.lib winmm.lib comctl32.lib rpcrt4.lib wsock32.lib pthreadVC2_x64.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\EFTSwitchSim.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\USER\documents\visual studio 2010\Projects\EFTSwitchSim\x64\Debug\EFTSwitchSim.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"WinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\documents\visual studio 2010\Projects\EFTSwitchSim\x64\Debug\EFTSwitchSim.lib" /MACHINE:X64 x64\Debug\BINReader.obj
+         x64\Debug\BINRouting.obj
+         x64\Debug\BINTree.obj
+         x64\Debug\BINTreeNode.obj
+         x64\Debug\ConfReader.obj
+         x64\Debug\FuzzyConfReader.obj
+         x64\Debug\SimConfReader.obj
+         x64\Debug\Routing.obj
+         x64\Debug\SinkNode.obj
+         x64\Debug\SourceNode.obj
+         x64\Debug\Experiments.obj
+         x64\Debug\Fuzzy.obj
+         x64\Debug\FuzzyCalculator.obj
+         x64\Debug\FuzzyInput.obj
+         x64\Debug\FuzzyLanguageParser.obj
+         x64\Debug\FuzzyReasoner.obj
+         x64\Debug\FuzzyRule.obj
+         x64\Debug\FuzzyRuleToken.obj
+         x64\Debug\LinguisticValue.obj
+         x64\Debug\LinguisticVariable.obj
+         x64\Debug\SingletonValue.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\TrapezoidValue.obj
+         x64\Debug\Node.obj
+         x64\Debug\PetriNetManager.obj
+         x64\Debug\Place.obj
+         x64\Debug\PNFactory.obj
+         x64\Debug\Token.obj
+         x64\Debug\Transition.obj
+         x64\Debug\BINGenerator.obj
+         x64\Debug\Filter.obj
+         x64\Debug\Generator.obj
+         x64\Debug\GeneratorManager.obj
+         x64\Debug\Handler.obj
+         x64\Debug\Logger.obj
+         x64\Debug\SimTime.obj
+         x64\Debug\SimulationManager.obj
+         x64\Debug\Statistics.obj
+         x64\Debug\stopWatch.obj
+         x64\Debug\Thread.obj
+         x64\Debug\Times.obj
+         x64\Debug\Buttons.obj
+         x64\Debug\Control.obj
+         x64\Debug\ControlField.obj
+         x64\Debug\MainScreen.obj
+         x64\Debug\MyApp.obj
+         x64\Debug\Report.obj
+         x64\Debug\ReportField.obj
+         x64\Debug\SimulationOutput.obj
+         x64\Debug\Observer.obj
+         x64\Debug\Singleton.obj
+         x64\Debug\XMLParser.obj
+         EFTSwitchSim.vcxproj -> C:\Users\USER\documents\visual studio 2010\Projects\EFTSwitchSim\x64\Debug\EFTSwitchSim.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\USER\documents\visual studio 2010\Projects\EFTSwitchSim\x64\Debug\EFTSwitchSim.exe;#1" /manifest x64\Debug\EFTSwitchSim.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\EFTSwitchSim.unsuccessfulbuild".
+         Touching "x64\Debug\EFTSwitchSim.lastbuildstate".
+     1>Done Building Project "C:\Users\USER\documents\visual studio 2010\Projects\EFTSwitchSim\EFTSwitchSim\EFTSwitchSim.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.47

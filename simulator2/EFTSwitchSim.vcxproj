@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6018654C-0F89-D7C5-6031-286AF5DA19F1}</ProjectGuid>
+    <VCTargetsPath Condition="'$(VCTargetsPath11)' != '' and '$(VSVersion)' == '' and $(VisualStudioVersion) == ''">$(VCTargetsPath11)</VCTargetsPath>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)trunk\build\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)trunk\build\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+    <EmbedManifest>true</EmbedManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>MyApp.cpp</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>WINVER=0x0400;__WXMSW__;WXUSINGDLL;wxUSE_GUI=1;_DEBUG;__WXDEBUG__;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;WIN64;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;C:\pthreads;C:\mingw64\;C:\mingw64\include;C:\mingw64\bin;C:\mingw64\lib64;C:\mingw64\lib;C:\pthreads_x64;C:\wxWidgets-2.8.12\lib\vc_lib;C:\wxWidgets-2.8.12\include;C:\wxWidgets-2.8.12;C:\wxWidgets-2.8.12\include\msvc;%(AdditionalLibraryDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <EntryPointSymbol>WinMainCRTStartup</EntryPointSymbol>
+      <AdditionalDependencies>wxmsw28d_core.lib;wxbase28d.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexd.lib;wxexpatd.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;advapi32.lib;pthreadVC2_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.;C:\pthreads;C:\mingw64\;C:\mingw64\include;C:\mingw64\bin;C:\mingw64\lib64;C:\mingw64\lib;C:\pthreads_x64;C:\wxWidgets-2.8.12\lib\vc_lib;C:\wxWidgets-2.8.12\include;C:\wxWidgets-2.8.12;C:\wxWidgets-2.8.12\include\msvc;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ManifestResourceCompile>
+      <ResourceOutputFileName>$(IntDir)$(TargetName)$(TargetExt).embed.manifest.res</ResourceOutputFileName>
+    </ManifestResourceCompile>
+    <Manifest>
+      <AdditionalManifestFiles>
+      </AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="trunk\src\BINRouting\BINReader.h" />
+    <ClInclude Include="trunk\src\BINRouting\BINRouting.h" />
+    <ClInclude Include="trunk\src\BINRouting\BINTree.h" />
+    <ClInclude Include="trunk\src\BINRouting\BINTreeNode.h" />
+    <ClInclude Include="trunk\src\Configuration\ConfReader.h" />
+    <ClInclude Include="trunk\src\Configuration\FuzzyConfReader.h" />
+    <ClInclude Include="trunk\src\Configuration\SimConfReader.h" />
+    <ClInclude Include="trunk\src\EFTSwitch\Routing.h" />
+    <ClInclude Include="trunk\src\EFTSwitch\SinkNode.h" />
+    <ClInclude Include="trunk\src\EFTSwitch\SourceNode.h" />
+    <ClInclude Include="trunk\src\FuzzyRouting\Experiments.h" />
+    <ClInclude Include="trunk\src\FuzzyRouting\Fuzzy.h" />
+    <ClInclude Include="trunk\src\FuzzyRouting\FuzzyCalculator.h" />
+    <ClInclude Include="trunk\src\FuzzyRouting\FuzzyInput.h" />
+    <ClInclude Include="trunk\src\FuzzyRouting\FuzzyLanguageParser.h" />
+    <ClInclude Include="trunk\src\FuzzyRouting\FuzzyReasoner.h" />
+    <ClInclude Include="trunk\src\FuzzyRouting\FuzzyRule.h" />
+    <ClInclude Include="trunk\src\FuzzyRouting\FuzzyRuleToken.h" />
+    <ClInclude Include="trunk\src\FuzzyRouting\LinguisticValue.h" />
+    <ClInclude Include="trunk\src\FuzzyRouting\LinguisticVariable.h" />
+    <ClInclude Include="trunk\src\FuzzyRouting\SingletonValue.h" />
+    <ClInclude Include="trunk\src\FuzzyRouting\stdafx.h" />
+    <ClInclude Include="trunk\src\FuzzyRouting\targetver.h" />
+    <ClInclude Include="trunk\src\FuzzyRouting\tchar.h" />
+    <ClInclude Include="trunk\src\FuzzyRouting\TrapezoidValue.h" />
+    <ClInclude Include="trunk\src\MyApp.h" />
+    <ClInclude Include="trunk\src\PetriNet\Node.h" />
+    <ClInclude Include="trunk\src\PetriNet\ObjectType.h" />
+    <ClInclude Include="trunk\src\PetriNet\PetriNetManager.h" />
+    <ClInclude Include="trunk\src\PetriNet\Place.h" />
+    <ClInclude Include="trunk\src\PetriNet\PNFactory.h" />
+    <ClInclude Include="trunk\src\PetriNet\Token.h" />
+    <ClInclude Include="trunk\src\PetriNet\Transition.h" />
+    <ClInclude Include="trunk\src\Simulation\BINGenerator.h" />
+    <ClInclude Include="trunk\src\Simulation\EventType.h" />
+    <ClInclude Include="trunk\src\Simulation\Filter.h" />
+    <ClInclude Include="trunk\src\Simulation\Generator.h" />
+    <ClInclude Include="trunk\src\Simulation\GeneratorManager.h" />
+    <ClInclude Include="trunk\src\Simulation\Handler.h" />
+    <ClInclude Include="trunk\src\Simulation\Logger.h" />
+    <ClInclude Include="trunk\src\Simulation\LogType.h" />
+    <ClInclude Include="trunk\src\Simulation\SimTime.h" />
+    <ClInclude Include="trunk\src\Simulation\SimulationManager.h" />
+    <ClInclude Include="trunk\src\Simulation\Statistics.h" />
+    <ClInclude Include="trunk\src\Simulation\stopWatch.h" />
+    <ClInclude Include="trunk\src\Simulation\Thread.h" />
+    <ClInclude Include="trunk\src\Simulation\Times.h" />
+    <ClInclude Include="trunk\src\UI\AppState.h" />
+    <ClInclude Include="trunk\src\UI\Buttons.h" />
+    <ClInclude Include="trunk\src\UI\Control.h" />
+    <ClInclude Include="trunk\src\UI\ControlField.h" />
+    <ClInclude Include="trunk\src\UI\MainScreen.h" />
+    <ClInclude Include="trunk\src\UI\Report.h" />
+    <ClInclude Include="trunk\src\UI\ReportField.h" />
+    <ClInclude Include="trunk\src\UI\SimulationOutput.h" />
+    <ClInclude Include="trunk\src\Utils\Observer.h" />
+    <ClInclude Include="trunk\src\Utils\Singleton.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="trunk\resources\BINLists\BINlist0.dat" />
+    <None Include="trunk\resources\BINLists\BINlist1.dat" />
+    <None Include="trunk\resources\BINLists\BINlist10.dat" />
+    <None Include="trunk\resources\BINLists\BINlist11.dat" />
+    <None Include="trunk\resources\BINLists\BINlist12.dat" />
+    <None Include="trunk\resources\BINLists\BINlist13.dat" />
+    <None Include="trunk\resources\BINLists\BINlist14.dat" />
+    <None Include="trunk\resources\BINLists\BINlist15.dat" />
+    <None Include="trunk\resources\BINLists\BINlist16.dat" />
+    <None Include="trunk\resources\BINLists\BINlist17.dat" />
+    <None Include="trunk\resources\BINLists\BINlist18.dat" />
+    <None Include="trunk\resources\BINLists\BINlist19.dat" />
+    <None Include="trunk\resources\BINLists\BINlist2.dat" />
+    <None Include="trunk\resources\BINLists\BINlist20.dat" />
+    <None Include="trunk\resources\BINLists\BINlist21.dat" />
+    <None Include="trunk\resources\BINLists\BINlist22.dat" />
+    <None Include="trunk\resources\BINLists\BINlist23.dat" />
+    <None Include="trunk\resources\BINLists\BINlist24.dat" />
+    <None Include="trunk\resources\BINLists\BINlist25.dat" />
+    <None Include="trunk\resources\BINLists\BINlist26.dat" />
+    <None Include="trunk\resources\BINLists\BINlist27.dat" />
+    <None Include="trunk\resources\BINLists\BINlist28.dat" />
+    <None Include="trunk\resources\BINLists\BINlist29.dat" />
+    <None Include="trunk\resources\BINLists\BINlist3.dat" />
+    <None Include="trunk\resources\BINLists\BINlist30.dat" />
+    <None Include="trunk\resources\BINLists\BINlist31.dat" />
+    <None Include="trunk\resources\BINLists\BINlist32.dat" />
+    <None Include="trunk\resources\BINLists\BINlist33.dat" />
+    <None Include="trunk\resources\BINLists\BINlist34.dat" />
+    <None Include="trunk\resources\BINLists\BINlist35.dat" />
+    <None Include="trunk\resources\BINLists\BINlist36.dat" />
+    <None Include="trunk\resources\BINLists\BINlist37.dat" />
+    <None Include="trunk\resources\BINLists\BINlist38.dat" />
+    <None Include="trunk\resources\BINLists\BINlist39.dat" />
+    <None Include="trunk\resources\BINLists\BINlist4.dat" />
+    <None Include="trunk\resources\BINLists\BINlist40.dat" />
+    <None Include="trunk\resources\BINLists\BINlist41.dat" />
+    <None Include="trunk\resources\BINLists\BINlist42.dat" />
+    <None Include="trunk\resources\BINLists\BINlist43.dat" />
+    <None Include="trunk\resources\BINLists\BINlist44.dat" />
+    <None Include="trunk\resources\BINLists\BINlist45.dat" />
+    <None Include="trunk\resources\BINLists\BINlist46.dat" />
+    <None Include="trunk\resources\BINLists\BINlist47.dat" />
+    <None Include="trunk\resources\BINLists\BINlist48.dat" />
+    <None Include="trunk\resources\BINLists\BINlist49.dat" />
+    <None Include="trunk\resources\BINLists\BINlist5.dat" />
+    <None Include="trunk\resources\BINLists\BINlist50.dat" />
+    <None Include="trunk\resources\BINLists\BINlist51.dat" />
+    <None Include="trunk\resources\BINLists\BINlist52.dat" />
+    <None Include="trunk\resources\BINLists\BINlist53.dat" />
+    <None Include="trunk\resources\BINLists\BINlist54.dat" />
+    <None Include="trunk\resources\BINLists\BINlist55.dat" />
+    <None Include="trunk\resources\BINLists\BINlist56.dat" />
+    <None Include="trunk\resources\BINLists\BINlist57.dat" />
+    <None Include="trunk\resources\BINLists\BINlist58.dat" />
+    <None Include="trunk\resources\BINLists\BINlist59.dat" />
+    <None Include="trunk\resources\BINLists\BINlist6.dat" />
+    <None Include="trunk\resources\BINLists\BINlist60.dat" />
+    <None Include="trunk\resources\BINLists\BINlist61.dat" />
+    <None Include="trunk\resources\BINLists\BINlist62.dat" />
+    <None Include="trunk\resources\BINLists\BINlist63.dat" />
+    <None Include="trunk\resources\BINLists\BINlist64.dat" />
+    <None Include="trunk\resources\BINLists\BINlist65.dat" />
+    <None Include="trunk\resources\BINLists\BINlist66.dat" />
+    <None Include="trunk\resources\BINLists\BINlist67.dat" />
+    <None Include="trunk\resources\BINLists\BINlist68.dat" />
+    <None Include="trunk\resources\BINLists\BINlist69.dat" />
+    <None Include="trunk\resources\BINLists\BINlist7.dat" />
+    <None Include="trunk\resources\BINLists\BINlist70.dat" />
+    <None Include="trunk\resources\BINLists\BINlist71.dat" />
+    <None Include="trunk\resources\BINLists\BINlist72.dat" />
+    <None Include="trunk\resources\BINLists\BINlist73.dat" />
+    <None Include="trunk\resources\BINLists\BINlist74.dat" />
+    <None Include="trunk\resources\BINLists\BINlist75.dat" />
+    <None Include="trunk\resources\BINLists\BINlist76.dat" />
+    <None Include="trunk\resources\BINLists\BINlist77.dat" />
+    <None Include="trunk\resources\BINLists\BINlist78.dat" />
+    <None Include="trunk\resources\BINLists\BINlist79.dat" />
+    <None Include="trunk\resources\BINLists\BINlist8.dat" />
+    <None Include="trunk\resources\BINLists\BINlist80.dat" />
+    <None Include="trunk\resources\BINLists\BINlist81.dat" />
+    <None Include="trunk\resources\BINLists\BINlist82.dat" />
+    <None Include="trunk\resources\BINLists\BINlist83.dat" />
+    <None Include="trunk\resources\BINLists\BINlist84.dat" />
+    <None Include="trunk\resources\BINLists\BINlist85.dat" />
+    <None Include="trunk\resources\BINLists\BINlist86.dat" />
+    <None Include="trunk\resources\BINLists\BINlist87.dat" />
+    <None Include="trunk\resources\BINLists\BINlist88.dat" />
+    <None Include="trunk\resources\BINLists\BINlist89.dat" />
+    <None Include="trunk\resources\BINLists\BINlist9.dat" />
+    <None Include="trunk\resources\BINLists\BINlist90.dat" />
+    <None Include="trunk\resources\BINLists\BINlist91.dat" />
+    <None Include="trunk\resources\BINLists\BINlist92.dat" />
+    <None Include="trunk\resources\BINLists\BINlist93.dat" />
+    <None Include="trunk\resources\BINLists\BINlist94.dat" />
+    <None Include="trunk\resources\BINLists\BINlist95.dat" />
+    <None Include="trunk\resources\BINLists\BINlist96.dat" />
+    <None Include="trunk\resources\BINLists\BINlist97.dat" />
+    <None Include="trunk\resources\BINLists\BINlist98.dat" />
+    <None Include="trunk\resources\BINLists\BINlist99.dat" />
+    <None Include="trunk\resources\BINLists\GenerateBIN.py" />
+    <None Include="trunk\resources\FuzzyConfig\Fuzzy.conf" />
+    <None Include="trunk\resources\Rules\rules1.rul" />
+    <None Include="trunk\resources\Rules\rules2.rul" />
+    <None Include="trunk\resources\Rules\rules3.rul" />
+    <None Include="trunk\resources\SimulationConfig\Simulation.conf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="trunk\src\BINRouting\BINReader.cpp" />
+    <ClCompile Include="trunk\src\BINRouting\BINRouting.cpp" />
+    <ClCompile Include="trunk\src\BINRouting\BINTree.cpp" />
+    <ClCompile Include="trunk\src\BINRouting\BINTreeNode.cpp" />
+    <ClCompile Include="trunk\src\Configuration\ConfReader.cpp" />
+    <ClCompile Include="trunk\src\Configuration\FuzzyConfReader.cpp" />
+    <ClCompile Include="trunk\src\Configuration\SimConfReader.cpp" />
+    <ClCompile Include="trunk\src\EFTSwitch\Routing.cpp" />
+    <ClCompile Include="trunk\src\EFTSwitch\SinkNode.cpp" />
+    <ClCompile Include="trunk\src\EFTSwitch\SourceNode.cpp" />
+    <ClCompile Include="trunk\src\FuzzyRouting\Experiments.cpp" />
+    <ClCompile Include="trunk\src\FuzzyRouting\Fuzzy.cpp" />
+    <ClCompile Include="trunk\src\FuzzyRouting\FuzzyCalculator.cpp" />
+    <ClCompile Include="trunk\src\FuzzyRouting\FuzzyInput.cpp" />
+    <ClCompile Include="trunk\src\FuzzyRouting\FuzzyLanguageParser.cpp" />
+    <ClCompile Include="trunk\src\FuzzyRouting\FuzzyReasoner.cpp" />
+    <ClCompile Include="trunk\src\FuzzyRouting\FuzzyRule.cpp" />
+    <ClCompile Include="trunk\src\FuzzyRouting\FuzzyRuleToken.cpp" />
+    <ClCompile Include="trunk\src\FuzzyRouting\LinguisticValue.cpp" />
+    <ClCompile Include="trunk\src\FuzzyRouting\LinguisticVariable.cpp" />
+    <ClCompile Include="trunk\src\FuzzyRouting\SingletonValue.cpp" />
+    <ClCompile Include="trunk\src\FuzzyRouting\stdafx.cpp" />
+    <ClCompile Include="trunk\src\FuzzyRouting\TrapezoidValue.cpp" />
+    <ClCompile Include="trunk\src\MyApp.cpp" />
+    <ClCompile Include="trunk\src\PetriNet\Node.cpp" />
+    <ClCompile Include="trunk\src\PetriNet\PetriNetManager.cpp" />
+    <ClCompile Include="trunk\src\PetriNet\Place.cpp" />
+    <ClCompile Include="trunk\src\PetriNet\PNFactory.cpp" />
+    <ClCompile Include="trunk\src\PetriNet\Token.cpp" />
+    <ClCompile Include="trunk\src\PetriNet\Transition.cpp" />
+    <ClCompile Include="trunk\src\Simulation\BINGenerator.cpp" />
+    <ClCompile Include="trunk\src\Simulation\Filter.cpp" />
+    <ClCompile Include="trunk\src\Simulation\Generator.cpp" />
+    <ClCompile Include="trunk\src\Simulation\GeneratorManager.cpp" />
+    <ClCompile Include="trunk\src\Simulation\Handler.cpp" />
+    <ClCompile Include="trunk\src\Simulation\Logger.cpp" />
+    <ClCompile Include="trunk\src\Simulation\SimTime.cpp" />
+    <ClCompile Include="trunk\src\Simulation\SimulationManager.cpp" />
+    <ClCompile Include="trunk\src\Simulation\Statistics.cpp" />
+    <ClCompile Include="trunk\src\Simulation\stopWatch.cpp" />
+    <ClCompile Include="trunk\src\Simulation\Thread.cpp" />
+    <ClCompile Include="trunk\src\Simulation\Times.cpp" />
+    <ClCompile Include="trunk\src\UI\Buttons.cpp" />
+    <ClCompile Include="trunk\src\UI\Control.cpp" />
+    <ClCompile Include="trunk\src\UI\ControlField.cpp" />
+    <ClCompile Include="trunk\src\UI\MainScreen.cpp" />
+    <ClCompile Include="trunk\src\UI\Report.cpp" />
+    <ClCompile Include="trunk\src\UI\ReportField.cpp" />
+    <ClCompile Include="trunk\src\UI\SimulationOutput.cpp" />
+    <ClCompile Include="trunk\src\Utils\Observer.cpp" />
+    <ClCompile Include="trunk\src\Utils\Singleton.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
